@@ -1,3 +1,14 @@
+body {
+  background-image: url(../images/gaming.jpeg);
+  color: white;
+}
 .firstpart {
   text-align: center;
+  font-style: 63px;
+  color: white;
+  font-weight: 600;
+}
+
+.new {
+  color: white;
 }
