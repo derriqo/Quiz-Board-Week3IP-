@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/gaming.jpeg);
+;
   color: white;
 }
 .firstpart {
@@ -7,6 +7,7 @@ body {
   font-style: 63px;
   color: white;
   font-weight: 600;
+  background-image: url(../images/gaming.jpeg)
 }
 
 .new {
