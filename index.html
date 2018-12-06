@@ -1,69 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <title>Week 3 IP</title>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <link rel="stylesheet" href="css/styles.css">
+  <title>Week 3 IP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <div class="container">
-      <div class="firstpart">
-        <h1>WEEK 3 PROJECT IP</h1>
-        <h2>QUIZ BOARD</h2>
-       <hr>
-      </div>
-  <p><div class="new">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    <div class="firstpart">
+      <h1>WEEK 3 PROJECT IP</h1>
+      <h2>QUIZ BOARD</h2>
+      <hr>
+    </div>
+    <p>
+      <div class="new">
+        <h2>Are you a gamer? Well there's one way to know !!</h2>
+
+  </div>
 
 
-      <form class="" action="index.html" method="post">
-    <p> Which interactive Entertainment created and owned the PS?<p>
-    <input type="radio" name="choice" value="LG">LG
-    <input type="radio" name="choice" value="SONY">SONY
-    <input type="radio" name="choice" value="Toshiba">Toshiba
-    <input type="radio" name="choice" value="Nitendo">Nitendo
-<p>Who is Mario's Brother?</p>
-<input type="radio" name="choice" value="Tony">LG
-<input type="radio" name="choice" value="Luigi">SONY
-<input type="radio" name="choice" value="Lucas">Toshiba
-<input type="radio" name="choice" value="Patric">Nitendo
-<p>How many shapes are in a PS4 controler?</p>
-<input type="radio" name="choice" value="Four">LG
-<input type="radio" name="choice" value="Six">SONY
-<input type="radio" name="choice" value="Five">Toshiba
-<input type="radio" name="choice" value="Three">Nitendo
-<p>Which of the following is an Open World Game? </p>
-<input type="radio" name="choice" value="Need for Speed">LG
-<input type="radio" name="choice" value="Mortal Kombat">SONY
-<input type="radio" name="choice" value="Grand Theft Auto">Toshiba
-<input type="radio" name="choice" value="FIFA">Nitendo
-<p>What time traveling device appears in Assasins Creed?</p>
-<input type="radio" name="choice" value="Time sphere">LG
-<input type="radio" name="choice" value="Cosmic Treadmill">SONY
-<input type="radio" name="choice" value="Animus">Toshiba
-<input type="radio" name="choice" value="Epoch">Nitendo
-<p>What does COD mean?</p>
-<input type="radio" name="choice" value="Call of Dust">LG
-<input type="radio" name="choice" value="Call of Duty">SONY
-<input type="radio" name="choice" value="Clan of Duty">Toshiba
-<input type="radio" name="choice" value="Can of Dust">Nitendo
-<p>What are the things you get in a game that shows your gaming skills?</p>
-<input type="radio" name="choice" value="Achievements">LG
-<input type="radio" name="choice" value="Trophies">SONY
-<input type="radio" name="choice" value="Both">Toshiba
-<input type="radio" name="choice" value="Likes">Nitendo
-<p>Which is the most sold game in the 21st century</p>
-<input type="radio" name="choice" value="Player Unknown Battlegrounds">LG
-<input type="radio" name="choice" value="Grand Theft Auto Five">SONY
-<input type="radio" name="choice" value="Fifa 18">Toshiba
-<input type="radio" name="choice" value="NBA 2K18">Nitendo
+  <form class="question" id="q1" >
+    <h3>Which interactive Entertainment created and owned the PS?<h3>
+      <ul>
+        <input type="radio" name="q1" value="LG">LG
+        <input type="radio" name="q1" value="SONY">SONY
+        <input type="radio" name="q1" value="Toshiba">Toshiba
+        <input type="radio" name="q1" value="Nitendo">Nitendo
+      </ul>
+      <button id="submit">Submit</button>
+  </form>
+
+  <form class="question" id="q2" >
+        <h3>Who is Mario's Brother?</h3>
+        <ul>
+          <input type="radio" name="q2" value="Tony">LG
+          <input type="radio" name="q2" value="Luigi">SONY
+          <input type="radio" name="q2" value="Lucas">Toshiba
+          <input type="radio" name="q2" value="Patric">Nitendo
+        </ul>
+  </form>
+  <form class="question" id="q3" >
+        <h3>How many shapes are in a PS4 controler?</p>
+<ul>
+  <input type="radio" name="q3" value="Four">LG
+  <input type="radio" name="q3" value="Six">SONY
+  <input type="radio" name="q3" value="Five">Toshiba
+  <input type="radio" name="q3" value="Three">Nitendo
+</ul>
+
+</form>
+      <form class="question" id="q4" >
+        <h3>Which of the following is an Open World Game? </p>
+<ul>
+  <input type="radio" name="q4" value="Need for Speed">LG
+  <input type="radio" name="q4" value="Mortal Kombat">SONY
+  <input type="radio" name="q4" value="Grand Theft Auto">Toshiba
+  <input type="radio" name="q4" value="FIFA">Nitendo
+</ul>
+
+
+   <form class="question" id="q5" >
+        <h3>What time traveling device appears in Assasins Creed?</p>
+<ul>
+  <input type="radio" name="q5" value="Time sphere">LG
+  <input type="radio" name="q5" value="Cosmic Treadmill">SONY
+  <input type="radio" name="q5" value="Animus">Toshiba
+  <input type="radio" name="q5" value="Epoch">Nitendo
+</ul>
+
+    <form class="question" id="q6" >
+        <h3>What does COD mean?</p>
+<ul>
+  <input type="radio" name="q6" value="Call of Dust">LG
+  <input type="radio" name="q6" value="Call of Duty">SONY
+  <input type="radio" name="q6" value="Clan of Duty">Toshiba
+  <input type="radio" name="q6" value="Can of Dust">Nitendo
+</ul>
+
+    <form class="question" id="q7" >
+        <h3>What are the things you get in a game that shows your gaming skills?</p>
+<ul>
+  <input type="radio" name="q7" value="Achievements">LG
+  <input type="radio" name="q7" value="Trophies">SONY
+  <input type="radio" name="q7" value="Both">Toshiba
+  <input type="radio" name="q7" value="Likes">Nitendo
+</ul>
+
+    <form class="question" id="q8" >
+        <h3>Which is the most sold game in the 21st century</p>
+<ul>
+  <input type="radio" name="q8" value="Player Unknown Battlegrounds">LG
+  <input type="radio" name="q8" value="Grand Theft Auto Five">SONY
+  <input type="radio" name="q8" value="Fifa 18">Toshiba
+  <input type="radio" name="q8" value="NBA 2K18">Nitendo
+</ul>
+
+   <form class="question" id="q9" >
+        <h3></p>Finish Up this famous quote E...A...Sports to the ?
+<ul>
+  <input type="radio" name="q9" value="Win">LG
+  <input type="radio" name="q9" value="Score">SONY
+  <input type="radio" name="q9" value="Game">Toshiba
+  <input type="radio" name="q9" value="Team">Nitendo
+</ul>
+        
+<form class="question" id="q10" >
+        <h3></p>
 
   </form>
-<button type="button" name="button">Submit Answer</button>
+  <button type="button" name="button">Submit Answer</button>
 
 
   </div>
