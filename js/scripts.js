@@ -1,3 +1,7 @@
+var answer = $(input:radio[name]val();)
+
+
+
 $(document).ready(function () {
 $(".question").hide();
  $("#q1").slideDown();
@@ -13,21 +17,7 @@ $("#next4").click(function(){
 });
 $("#next5").click(function(){
   $("#q5").slideDown();
-});
-$("#next6").click(function(){
-  $("#q6").slideDown();
-});
-$("#next7").click(function(){
-  $("#q7").slideDown();
-});
-$("#next8").click(function(){
-  $("#q8").slideDown();
-});
-$("#next9").click(function(){
-  $("#q9").slideDown();
-});
-$("#next10").click(function(){
-  $("#q10").slideDown();
+
 });
 });
 
