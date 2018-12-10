@@ -1,3 +1,3 @@
 $(document).ready(function () {
-  $(radio)
+ $(".container").hide();
 }
