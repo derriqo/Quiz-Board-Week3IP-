@@ -16,3 +16,14 @@ ul {
   -webkit-columns: 3;
   -moz-columns: 3;
 }
+.marks {
+  font-size: 30px;
+  align-items: center;
+  color: yellow;
+}
+.tit{
+  align-items: center;
+  background-image: url(../images/gaming.jpg);
+  color: yellow;
+  font-weight: bolder;
+}
