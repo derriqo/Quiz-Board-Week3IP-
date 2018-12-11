@@ -1,24 +1,35 @@
-var answer = $(input:radio[name]val();)
-
-
-
-$(document).ready(function () {
-$(".question").hide();
- $("#q1").slideDown();
-
-$("#next2").click(function(){
-  $("#q2").slideDown();
+var blank = false;
+$("input:radio").each(function() {
+  var val = $('input:radio[name=' + this.name + ']:checked').val();
+  if (val === undefined) {
+    blank = true;
+    return false;
+  }
 });
-$("#next3").click(function(){
-  $("#q3").slideDown();
-});
-$("#next4").click(function(){
-  $("#q4").slideDown();
-});
-$("#next5").click(function(){
-  $("#q5").slideDown();
+if (!blank) {
 
-});
+} else {}
+var answer = $(input: radio[answer] val();)
+
+
+
+$(document).ready(function() {
+  $(".question").hide();
+  $("#q1").slideDown();
+
+  $("#next2").click(function() {
+    $("#q3").slideDown();
+  });
+  $("#next3").click(function() {
+    $("#q4").slideDown();
+  });
+  $("#next").click(function() {
+    $("#q4").slideDown();
+  });
+  $("#next5").click(function() {
+    $("#q5").slideDown();
+
+  });
 });
 
 
