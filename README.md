@@ -1,7 +1,7 @@
 #  QUIZ BOARD
 
 #  Project Description
-Moving away from paper multiple choice questions in school, we introduce *QUIZ BOARD* an application that enables a user customize multiple choice questions and awards marks to the user.
+Moving away from paper multiple choice questions in school, we introduce *QUIZ BOARD* an application that enables a user customize multiple choice questions and awards marks.
 
 
 ### Author Information

@@ -3,6 +3,7 @@ $(document).ready(function() {
     if (!$("input[type='radio']:checked").val()) {
       alert('Please select an answer');
       return false;
+
     }
   })
 });
