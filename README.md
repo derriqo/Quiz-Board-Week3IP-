@@ -13,6 +13,9 @@ To get started with this application you need to simply not get Internet Connect
 
 ## BDD
 
+**User Story**
+As a user i want to be able to select answers to a multiple choice question and get results for the answers selected.
+
  **Implementation**
 1. Ensures users selects at least one choice
 2. Collects all user selected choices.
