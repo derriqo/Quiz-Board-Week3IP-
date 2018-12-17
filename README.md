@@ -9,7 +9,12 @@ My name is **Derrick William** the creator of this application.I am now three we
 
 
 ## Setup Instruction
-To get started with this application you need to simply not get Internet Connection and get Started.
+
+Follow the following steps to get started with Quiz BOARD.
+
+1.  Get to Internet connection.
+2.  Git clone the project using https://github.com/derriqo/Quiz-Board-Week3IP-.git
+3.  Open index.html in a browser like Google chrome.
 
 ## BDD
 
