@@ -10,18 +10,22 @@ function totalMarks() {
     }
   });
   return sum;
-}
+};
+
+
+
 
 $(document).ready(function() {
 
 
   $("#finish").click(function() {
     var total = totalMarks();
+    $(".yote").hide();
     if (!$("input[type='radio']:checked").val()) {
       alert('Please select an answer');
     } else {
-      $(".marks").text(total + "/100");
-
+      $(".marks").text("You Scored " + total + " out of 100");
+      sum=0;
     }
 
   });
